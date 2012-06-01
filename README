@@ -1,0 +1,9 @@
+CPSC 492 Final Project
+
+by: Brandon Hamer, Eric Makino, Roger Kennedy, Paula Ladino
+
+The "fileShare" directory contains the normal servers. There are currently two saved but there can be
+an arbitrary number of them.  They currently are saving files to the same directory but that can, and should,
+be changed to one directory per server so the servers can scale to separate physical locations.
+
+The "fileShare_ROOT" is the root server and should only have one instance running.
