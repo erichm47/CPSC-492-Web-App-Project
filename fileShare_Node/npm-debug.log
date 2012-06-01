@@ -1,0 +1,858 @@
+info it worked if it ends with ok
+verbose cli [ 'C:\\Program Files (x86)\\nodejs\\\\node.exe',
+verbose cli   'C:\\Program Files (x86)\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+verbose cli   'install',
+verbose cli   'connect-mongodb' ]
+info using npm@1.1.12
+info using node@v0.6.14
+verbose C:\Program Files (x86)\nodejs\\node.exe node symlink
+verbose config file C:\Users\Brandon\.npmrc
+verbose config file C:\Program Files (x86)\nodejs\etc\npmrc
+verbose config file C:\Program Files (x86)\nodejs\node_modules\npm\npmrc
+verbose mkdir done: C:\Users\Brandon\AppData\Roaming\npm 755
+verbose mkdir done: C:\Users\Brandon\Documents\My Web Sites\fileShare 755
+verbose caching C:\Users\Brandon\Documents\My Web Sites\fileShare\package.json
+verbose loadDefaults application-name@0.0.1
+verbose caching C:\Users\Brandon\Documents\My Web Sites\fileShare\node_modules\ejs\package.json
+verbose caching C:\Users\Brandon\Documents\My Web Sites\fileShare\node_modules\express\package.json
+verbose from cache C:\Users\Brandon\Documents\My Web Sites\fileShare\package.json
+verbose readDependencies: using package.json deps
+verbose cache add [ 'connect-mongodb', null ]
+silly cache add: name, spec, args [ undefined, 'connect-mongodb', [ 'connect-mongodb', null ] ]
+verbose parsed url { pathname: 'connect-mongodb',
+verbose parsed url   path: 'connect-mongodb',
+verbose parsed url   href: 'connect-mongodb' }
+verbose addNamed [ 'connect-mongodb', '' ]
+verbose addNamed [ null, '' ]
+silly name, range, hasData [ 'connect-mongodb', '', false ]
+verbose raw, before any munging connect-mongodb
+verbose url resolving [ 'https://registry.npmjs.org/', './connect-mongodb' ]
+verbose url resolved https://registry.npmjs.org/connect-mongodb
+http GET https://registry.npmjs.org/connect-mongodb
+http 200 https://registry.npmjs.org/connect-mongodb
+silly get cb [ 200,
+silly get cb   { vary: 'Accept',
+silly get cb     server: 'CouchDB/1.2.0 (Erlang OTP/R15B)',
+silly get cb     etag: '"1PYPG9HA2RRT8HG4QCXUFBKIH"',
+silly get cb     date: 'Fri, 25 May 2012 04:13:40 GMT',
+silly get cb     'content-type': 'application/json',
+silly get cb     'content-length': '16217' } ]
+verbose mkdir (expected) error ENOENT, stat 'C:\Users\Brandon\AppData\Roaming\npm-cache\connect-mongodb'
+verbose mkdir done: C:\Users\Brandon\AppData\Roaming\npm-cache\connect-mongodb 755
+silly name, range, hasData 2 [ 'connect-mongodb', '', true ]
+silly versions [ 'connect-mongodb',
+silly versions   [ '0.0.2',
+silly versions     '0.0.4',
+silly versions     '0.1.0',
+silly versions     '0.1.1',
+silly versions     '0.2.0',
+silly versions     '0.2.1',
+silly versions     '0.2.2',
+silly versions     '0.3.0',
+silly versions     '0.4.0',
+silly versions     '1.0.0beta',
+silly versions     '1.0.0rc',
+silly versions     '1.0.0rc2',
+silly versions     '1.0.0',
+silly versions     '1.1.0',
+silly versions     '1.1.1',
+silly versions     '1.1.2',
+silly versions     '1.1.3' ] ]
+verbose bin dist [ '0.6-ares1.7.5-DEV-evundefined-openssl0.9.8r-v83.6.6.24-win32-ia32-6.1.7601',
+verbose bin dist   { shasum: '0f6f88604e7fb8ae3bcb71aaab188e08b03d6f44',
+verbose bin dist     tarball: 'http://registry.npmjs.org/connect-mongodb/-/connect-mongodb-1.1.3.tgz' } ]
+verbose addRemoteTarball [ 'https://registry.npmjs.org/connect-mongodb/-/connect-mongodb-1.1.3.tgz',
+verbose addRemoteTarball   '0f6f88604e7fb8ae3bcb71aaab188e08b03d6f44' ]
+verbose mkdir (expected) error ENOENT, stat 'C:\Users\Brandon\AppData\Local\Temp\npm-1337919225868'
+verbose mkdir (expected) error ENOENT, stat 'C:\Users\Brandon\AppData\Local\Temp\npm-1337919225868\1337919225868-0.11664318689145148'
+verbose mkdir done: C:\Users\Brandon\AppData\Local\Temp\npm-1337919225868\1337919225868-0.11664318689145148 755
+verbose fetch to C:\Users\Brandon\AppData\Local\Temp\npm-1337919225868\1337919225868-0.11664318689145148\tmp.tgz
+verbose mkdir done: C:\Users\Brandon\AppData\Local\Temp\npm-1337919225868\1337919225868-0.11664318689145148 755
+http GET https://registry.npmjs.org/connect-mongodb/-/connect-mongodb-1.1.3.tgz
+http 200 https://registry.npmjs.org/connect-mongodb/-/connect-mongodb-1.1.3.tgz
+silly updated sha bytes 3936
+info shasum 0f6f88604e7fb8ae3bcb71aaab188e08b03d6f44
+info shasum C:\Users\Brandon\AppData\Local\Temp\npm-1337919225868\1337919225868-0.11664318689145148\tmp.tgz
+verbose mkdir (expected) error ENOENT, stat 'C:\Users\Brandon\AppData\Local\Temp\npm-1337919225868\1337919225868-0.11664318689145148\package'
+verbose mkdir done: C:\Users\Brandon\AppData\Local\Temp\npm-1337919225868\1337919225868-0.11664318689145148\package 755
+verbose unpack_ uid, gid [ undefined, undefined ]
+verbose unpackTarget C:\Users\Brandon\AppData\Local\Temp\npm-1337919225868\1337919225868-0.11664318689145148\package
+silly gunzTarPerm modes [ '755', '644' ]
+verbose gunzed C:\Users\Brandon\AppData\Local\Temp\npm-1337919225868\1337919225868-0.11664318689145148\package
+verbose caching C:\Users\Brandon\AppData\Local\Temp\npm-1337919225868\1337919225868-0.11664318689145148\package\package.json
+verbose loadDefaults connect-mongodb@1.1.3
+verbose tarball contents [ 'package', 'tmp.tgz' ]
+verbose from cache C:\Users\Brandon\AppData\Local\Temp\npm-1337919225868\1337919225868-0.11664318689145148\package\package.json
+verbose pack C:\Users\Brandon\AppData\Local\Temp\npm-1337919225868\1337919225868-0.11664318689145148\package
+verbose pack C:\Users\Brandon\AppData\Local\Temp\npm-1337919225868\1337919225868-0.11664318689145148\package C:\Users\Brandon\AppData\Roaming\npm-cache\connect-mongodb\1.1.3\package.tgz
+silly makeList C:\Users\Brandon\AppData\Local\Temp\npm-1337919225868\1337919225868-0.11664318689145148\package
+silly dir, dirLen [ 'C:\\Users\\Brandon\\AppData\\Local\\Temp\\npm-1337919225868\\1337919225868-0.11664318689145148\\package',
+silly dir, dirLen   96 ]
+verbose tarball C:\Users\Brandon\AppData\Roaming\npm-cache\connect-mongodb\1.1.3\package.tgz
+verbose parent C:\Users\Brandon\AppData\Local\Temp\npm-1337919225868\1337919225868-0.11664318689145148\package
+verbose mkdir (expected) error ENOENT, stat 'C:\Users\Brandon\AppData\Roaming\npm-cache\connect-mongodb\1.1.3\package'
+verbose mkdir done: C:\Users\Brandon\AppData\Roaming\npm-cache\connect-mongodb\1.1.3\package 755
+verbose unpack_ uid, gid [ undefined, undefined ]
+verbose unpackTarget C:\Users\Brandon\AppData\Roaming\npm-cache\connect-mongodb\1.1.3\package
+silly gunzTarPerm modes [ '755', '644' ]
+silly modified mode [ '.npmignore', 438, 420 ]
+silly modified mode [ 'example/', 438, 493 ]
+silly modified mode [ 'example/index.js', 438, 420 ]
+silly modified mode [ 'index.js', 438, 420 ]
+silly modified mode [ 'lib/', 438, 493 ]
+silly modified mode [ 'lib/connect-mongodb.js', 438, 420 ]
+silly modified mode [ 'Makefile', 438, 420 ]
+silly modified mode [ 'package.json', 438, 420 ]
+silly modified mode [ 'Readme.md', 438, 420 ]
+silly modified mode [ 'tests/', 438, 493 ]
+silly modified mode [ 'tests/core.js', 438, 420 ]
+verbose gunzed C:\Users\Brandon\AppData\Roaming\npm-cache\connect-mongodb\1.1.3\package
+verbose caching C:\Users\Brandon\AppData\Roaming\npm-cache\connect-mongodb\1.1.3\package\package.json
+verbose loadDefaults connect-mongodb@1.1.3
+silly updated sha bytes 3881
+info shasum b280b153ff345f7575f2a54be73ba83b6471aef2
+info shasum C:\Users\Brandon\AppData\Roaming\npm-cache\connect-mongodb\1.1.3\package.tgz
+verbose from cache C:\Users\Brandon\AppData\Roaming\npm-cache\connect-mongodb\1.1.3\package\package.json
+verbose chmod C:\Users\Brandon\AppData\Roaming\npm-cache\connect-mongodb\1.1.3\package.tgz 644
+silly skipping chown for windows C:\Users\Brandon\AppData\Roaming\npm-cache\connect-mongodb\1.1.3\package.tgz
+silly resolved [ { name: 'connect-mongodb',
+silly resolved     description: 'mongodb session store for connect',
+silly resolved     version: '1.1.3',
+silly resolved     author: { name: 'Vladimir Dronnikov', email: 'dronnikov@gmail.com' },
+silly resolved     contributors: 
+silly resolved      [ { name: 'Pau Ramon', email: 'masylum@gmail.com' },
+silly resolved        { name: 'ramv' } ],
+silly resolved     repository: 
+silly resolved      { type: 'git',
+silly resolved        url: 'git://github.com/masylum/connect-mongodb.git' },
+silly resolved     dependencies: { mongodb: '0.9.7', connect: '1.8.5' },
+silly resolved     devDependencies: { testosterone: '1.2.0', gently: '0.9.1', funk: '1.5.0' },
+silly resolved     main: './lib/connect-mongodb',
+silly resolved     _id: 'connect-mongodb@1.1.3',
+silly resolved     optionalDependencies: {},
+silly resolved     engines: { node: '*' },
+silly resolved     _engineSupported: true,
+silly resolved     _npmVersion: '1.1.12',
+silly resolved     _nodeVersion: 'v0.6.14',
+silly resolved     _defaultsLoaded: true,
+silly resolved     dist: { shasum: 'b280b153ff345f7575f2a54be73ba83b6471aef2' },
+silly resolved     _from: 'connect-mongodb',
+silly resolved     scripts: {} } ]
+info into C:\Users\Brandon\Documents\My Web Sites\fileShare connect-mongodb@1.1.3
+info installOne connect-mongodb@1.1.3
+verbose from cache C:\Users\Brandon\AppData\Roaming\npm-cache\connect-mongodb\1.1.3\package\package.json
+info unbuild C:\Users\Brandon\Documents\My Web Sites\fileShare\node_modules\connect-mongodb
+verbose mkdir (expected) error ENOENT, stat 'C:\Users\Brandon\Documents\My Web Sites\fileShare\node_modules\connect-mongodb'
+verbose mkdir done: C:\Users\Brandon\Documents\My Web Sites\fileShare\node_modules\connect-mongodb 755
+verbose unpack_ uid, gid [ undefined, undefined ]
+verbose unpackTarget C:\Users\Brandon\Documents\My Web Sites\fileShare\node_modules\connect-mongodb
+silly gunzTarPerm modes [ '755', '644' ]
+silly modified mode [ '.npmignore', 438, 420 ]
+silly modified mode [ 'example/', 438, 493 ]
+silly modified mode [ 'example/index.js', 438, 420 ]
+silly modified mode [ 'index.js', 438, 420 ]
+silly modified mode [ 'lib/', 438, 493 ]
+silly modified mode [ 'lib/connect-mongodb.js', 438, 420 ]
+silly modified mode [ 'Makefile', 438, 420 ]
+silly modified mode [ 'package.json', 438, 420 ]
+silly modified mode [ 'Readme.md', 438, 420 ]
+silly modified mode [ 'tests/', 438, 493 ]
+silly modified mode [ 'tests/core.js', 438, 420 ]
+verbose gunzed C:\Users\Brandon\Documents\My Web Sites\fileShare\node_modules\connect-mongodb
+verbose caching C:\Users\Brandon\Documents\My Web Sites\fileShare\node_modules\connect-mongodb\package.json
+verbose loadDefaults connect-mongodb@1.1.3
+info preinstall connect-mongodb@1.1.3
+verbose from cache C:\Users\Brandon\Documents\My Web Sites\fileShare\node_modules\connect-mongodb\package.json
+verbose readDependencies: using package.json deps
+verbose from cache C:\Users\Brandon\Documents\My Web Sites\fileShare\node_modules\connect-mongodb\package.json
+verbose readDependencies: using package.json deps
+verbose cache add [ 'connect@1.8.5', null ]
+silly cache add: name, spec, args [ undefined, 'connect@1.8.5', [ 'connect@1.8.5', null ] ]
+verbose parsed url { pathname: 'connect@1.8.5',
+verbose parsed url   path: 'connect@1.8.5',
+verbose parsed url   href: 'connect@1.8.5' }
+silly cache add: name, spec, args [ 'connect', '1.8.5', [ 'connect', '1.8.5' ] ]
+verbose parsed url { pathname: '1.8.5', path: '1.8.5', href: '1.8.5' }
+verbose addNamed [ 'connect', '1.8.5' ]
+verbose addNamed [ '1.8.5', '1.8.5' ]
+verbose cache add [ 'mongodb@0.9.7', null ]
+silly cache add: name, spec, args [ undefined, 'mongodb@0.9.7', [ 'mongodb@0.9.7', null ] ]
+verbose parsed url { pathname: 'mongodb@0.9.7',
+verbose parsed url   path: 'mongodb@0.9.7',
+verbose parsed url   href: 'mongodb@0.9.7' }
+silly cache add: name, spec, args [ 'mongodb', '0.9.7', [ 'mongodb', '0.9.7' ] ]
+verbose parsed url { pathname: '0.9.7', path: '0.9.7', href: '0.9.7' }
+verbose addNamed [ 'mongodb', '0.9.7' ]
+verbose addNamed [ '0.9.7', '0.9.7' ]
+verbose raw, before any munging mongodb/0.9.7
+verbose url resolving [ 'https://registry.npmjs.org/', './mongodb/0.9.7' ]
+verbose url resolved https://registry.npmjs.org/mongodb/0.9.7
+http GET https://registry.npmjs.org/mongodb/0.9.7
+verbose raw, before any munging connect/1.8.5
+verbose url resolving [ 'https://registry.npmjs.org/', './connect/1.8.5' ]
+verbose url resolved https://registry.npmjs.org/connect/1.8.5
+http GET https://registry.npmjs.org/connect/1.8.5
+http 200 https://registry.npmjs.org/connect/1.8.5
+silly get cb [ 200,
+silly get cb   { vary: 'Accept',
+silly get cb     server: 'CouchDB/1.2.0 (Erlang OTP/R15B)',
+silly get cb     etag: '"EU0F5EQ376A2QW0DOCFF1YRZE"',
+silly get cb     date: 'Fri, 25 May 2012 04:13:44 GMT',
+silly get cb     'content-type': 'application/json',
+silly get cb     'content-length': '1032' } ]
+verbose mkdir (expected) error ENOENT, stat 'C:\Users\Brandon\AppData\Roaming\npm-cache\connect\1.8.5'
+verbose mkdir done: C:\Users\Brandon\AppData\Roaming\npm-cache\connect\1.8.5 755
+verbose bin dist [ '0.6-ares1.7.5-DEV-evundefined-openssl0.9.8r-v83.6.6.24-win32-ia32-6.1.7601',
+verbose bin dist   { shasum: 'e7ec35a6598d96b6c2dadab817152b406b35d949',
+verbose bin dist     tarball: 'http://registry.npmjs.org/connect/-/connect-1.8.5.tgz' } ]
+verbose addRemoteTarball [ 'https://registry.npmjs.org/connect/-/connect-1.8.5.tgz',
+verbose addRemoteTarball   'e7ec35a6598d96b6c2dadab817152b406b35d949' ]
+verbose mkdir (expected) error ENOENT, stat 'C:\Users\Brandon\AppData\Local\Temp\npm-1337919225868\1337919228648-0.3440847001038492'
+verbose mkdir done: C:\Users\Brandon\AppData\Local\Temp\npm-1337919225868\1337919228648-0.3440847001038492 755
+verbose fetch to C:\Users\Brandon\AppData\Local\Temp\npm-1337919225868\1337919228648-0.3440847001038492\tmp.tgz
+verbose mkdir done: C:\Users\Brandon\AppData\Local\Temp\npm-1337919225868\1337919228648-0.3440847001038492 755
+http GET https://registry.npmjs.org/connect/-/connect-1.8.5.tgz
+http 200 https://registry.npmjs.org/mongodb/0.9.7
+silly get cb [ 200,
+silly get cb   { vary: 'Accept',
+silly get cb     server: 'CouchDB/1.2.0 (Erlang OTP/R15B)',
+silly get cb     etag: '"C5B5KEHAL30C1E0LCDMQ9OHEY"',
+silly get cb     date: 'Fri, 25 May 2012 04:13:43 GMT',
+silly get cb     'content-type': 'application/json',
+silly get cb     'content-length': '2310' } ]
+verbose mkdir (expected) error ENOENT, stat 'C:\Users\Brandon\AppData\Roaming\npm-cache\mongodb'
+verbose mkdir (expected) error ENOENT, stat 'C:\Users\Brandon\AppData\Roaming\npm-cache\mongodb\0.9.7'
+verbose mkdir done: C:\Users\Brandon\AppData\Roaming\npm-cache\mongodb\0.9.7 755
+verbose bin dist [ '0.6-ares1.7.5-DEV-evundefined-openssl0.9.8r-v83.6.6.24-win32-ia32-6.1.7601',
+verbose bin dist   { shasum: '1f1a21b68096663e1c4709f132c4de886feba1c3',
+verbose bin dist     tarball: 'http://registry.npmjs.org/mongodb/-/mongodb-0.9.7.tgz' } ]
+verbose addRemoteTarball [ 'https://registry.npmjs.org/mongodb/-/mongodb-0.9.7.tgz',
+verbose addRemoteTarball   '1f1a21b68096663e1c4709f132c4de886feba1c3' ]
+verbose mkdir (expected) error ENOENT, stat 'C:\Users\Brandon\AppData\Local\Temp\npm-1337919225868\1337919228738-0.3223430395592004'
+verbose mkdir done: C:\Users\Brandon\AppData\Local\Temp\npm-1337919225868\1337919228738-0.3223430395592004 755
+verbose fetch to C:\Users\Brandon\AppData\Local\Temp\npm-1337919225868\1337919228738-0.3223430395592004\tmp.tgz
+verbose mkdir done: C:\Users\Brandon\AppData\Local\Temp\npm-1337919225868\1337919228738-0.3223430395592004 755
+http GET https://registry.npmjs.org/mongodb/-/mongodb-0.9.7.tgz
+http 200 https://registry.npmjs.org/mongodb/-/mongodb-0.9.7.tgz
+http 200 https://registry.npmjs.org/connect/-/connect-1.8.5.tgz
+silly updated sha bytes 40960
+silly updated sha bytes 40960
+info shasum e7ec35a6598d96b6c2dadab817152b406b35d949
+info shasum C:\Users\Brandon\AppData\Local\Temp\npm-1337919225868\1337919228648-0.3440847001038492\tmp.tgz
+verbose mkdir (expected) error ENOENT, stat 'C:\Users\Brandon\AppData\Local\Temp\npm-1337919225868\1337919228648-0.3440847001038492\package'
+verbose mkdir done: C:\Users\Brandon\AppData\Local\Temp\npm-1337919225868\1337919228648-0.3440847001038492\package 755
+verbose unpack_ uid, gid [ undefined, undefined ]
+verbose unpackTarget C:\Users\Brandon\AppData\Local\Temp\npm-1337919225868\1337919228648-0.3440847001038492\package
+silly gunzTarPerm modes [ '755', '644' ]
+verbose gunzed C:\Users\Brandon\AppData\Local\Temp\npm-1337919225868\1337919228648-0.3440847001038492\package
+verbose caching C:\Users\Brandon\AppData\Local\Temp\npm-1337919225868\1337919228648-0.3440847001038492\package\package.json
+verbose loadDefaults connect@1.8.5
+verbose tarball contents [ 'package', 'tmp.tgz' ]
+verbose from cache C:\Users\Brandon\AppData\Local\Temp\npm-1337919225868\1337919228648-0.3440847001038492\package\package.json
+verbose pack C:\Users\Brandon\AppData\Local\Temp\npm-1337919225868\1337919228648-0.3440847001038492\package
+verbose pack C:\Users\Brandon\AppData\Local\Temp\npm-1337919225868\1337919228648-0.3440847001038492\package C:\Users\Brandon\AppData\Roaming\npm-cache\connect\1.8.5\package.tgz
+silly makeList C:\Users\Brandon\AppData\Local\Temp\npm-1337919225868\1337919228648-0.3440847001038492\package
+silly dir, dirLen [ 'C:\\Users\\Brandon\\AppData\\Local\\Temp\\npm-1337919225868\\1337919228648-0.3440847001038492\\package',
+silly dir, dirLen   95 ]
+verbose tarball C:\Users\Brandon\AppData\Roaming\npm-cache\connect\1.8.5\package.tgz
+verbose parent C:\Users\Brandon\AppData\Local\Temp\npm-1337919225868\1337919228648-0.3440847001038492\package
+verbose mkdir (expected) error ENOENT, stat 'C:\Users\Brandon\AppData\Roaming\npm-cache\connect\1.8.5\package'
+verbose mkdir done: C:\Users\Brandon\AppData\Roaming\npm-cache\connect\1.8.5\package 755
+verbose unpack_ uid, gid [ undefined, undefined ]
+verbose unpackTarget C:\Users\Brandon\AppData\Roaming\npm-cache\connect\1.8.5\package
+silly gunzTarPerm modes [ '755', '644' ]
+silly modified mode [ '.npmignore', 438, 420 ]
+silly modified mode [ 'index.js', 438, 420 ]
+silly modified mode [ 'lib/', 438, 493 ]
+silly modified mode [ 'lib/cache.js', 438, 420 ]
+silly modified mode [ 'lib/connect.js', 438, 420 ]
+silly modified mode [ 'lib/http.js', 438, 420 ]
+silly modified mode [ 'lib/https.js', 438, 420 ]
+silly modified mode [ 'lib/index.js', 438, 420 ]
+silly modified mode [ 'lib/middleware/', 438, 493 ]
+silly modified mode [ 'lib/middleware/basicAuth.js', 438, 420 ]
+silly modified mode [ 'lib/middleware/bodyParser.js', 438, 420 ]
+silly modified mode [ 'lib/middleware/compiler.js', 438, 420 ]
+silly modified mode [ 'lib/middleware/cookieParser.js', 438, 420 ]
+silly modified mode [ 'lib/middleware/csrf.js', 438, 420 ]
+silly modified mode [ 'lib/middleware/directory.js', 438, 420 ]
+silly modified mode [ 'lib/middleware/errorHandler.js', 438, 420 ]
+silly modified mode [ 'lib/middleware/favicon.js', 438, 420 ]
+silly modified mode [ 'lib/middleware/limit.js', 438, 420 ]
+silly modified mode [ 'lib/middleware/logger.js', 438, 420 ]
+silly modified mode [ 'lib/middleware/methodOverride.js', 438, 420 ]
+silly modified mode [ 'lib/middleware/profiler.js', 438, 420 ]
+silly modified mode [ 'lib/middleware/query.js', 438, 420 ]
+silly modified mode [ 'lib/middleware/responseTime.js', 438, 420 ]
+silly modified mode [ 'lib/middleware/router.js', 438, 420 ]
+silly modified mode [ 'lib/middleware/session/', 438, 493 ]
+silly modified mode [ 'lib/middleware/session/cookie.js', 438, 420 ]
+silly modified mode [ 'lib/middleware/session/memory.js', 438, 420 ]
+silly modified mode [ 'lib/middleware/session/session.js', 438, 420 ]
+silly modified mode [ 'lib/middleware/session/store.js', 438, 420 ]
+silly modified mode [ 'lib/middleware/session.js', 438, 420 ]
+silly modified mode [ 'lib/middleware/static.js', 438, 420 ]
+silly modified mode [ 'lib/middleware/staticCache.js', 438, 420 ]
+silly modified mode [ 'lib/middleware/vhost.js', 438, 420 ]
+silly modified mode [ 'lib/patch.js', 438, 420 ]
+silly modified mode [ 'lib/public/', 438, 493 ]
+silly modified mode [ 'lib/public/directory.html', 438, 420 ]
+silly modified mode [ 'lib/public/error.html', 438, 420 ]
+silly modified mode [ 'lib/public/favicon.ico', 438, 420 ]
+silly modified mode [ 'lib/public/icons/', 438, 493 ]
+silly modified mode [ 'lib/public/icons/page.png', 438, 420 ]
+silly modified mode [ 'lib/public/icons/page_add.png', 438, 420 ]
+silly modified mode [ 'lib/public/icons/page_attach.png', 438, 420 ]
+silly modified mode [ 'lib/public/icons/page_code.png', 438, 420 ]
+silly modified mode [ 'lib/public/icons/page_copy.png', 438, 420 ]
+silly modified mode [ 'lib/public/icons/page_delete.png', 438, 420 ]
+silly modified mode [ 'lib/public/icons/page_edit.png', 438, 420 ]
+silly modified mode [ 'lib/public/icons/page_error.png', 438, 420 ]
+silly modified mode [ 'lib/public/icons/page_excel.png', 438, 420 ]
+silly modified mode [ 'lib/public/icons/page_find.png', 438, 420 ]
+silly modified mode [ 'lib/public/icons/page_gear.png', 438, 420 ]
+silly modified mode [ 'lib/public/icons/page_go.png', 438, 420 ]
+silly modified mode [ 'lib/public/icons/page_green.png', 438, 420 ]
+silly modified mode [ 'lib/public/icons/page_key.png', 438, 420 ]
+silly modified mode [ 'lib/public/icons/page_lightning.png', 438, 420 ]
+silly modified mode [ 'lib/public/icons/page_link.png', 438, 420 ]
+silly modified mode [ 'lib/public/icons/page_paintbrush.png', 438, 420 ]
+silly modified mode [ 'lib/public/icons/page_paste.png', 438, 420 ]
+silly modified mode [ 'lib/public/icons/page_red.png', 438, 420 ]
+silly modified mode [ 'lib/public/icons/page_refresh.png', 438, 420 ]
+silly modified mode [ 'lib/public/icons/page_save.png', 438, 420 ]
+silly modified mode [ 'lib/public/icons/page_white.png', 438, 420 ]
+silly modified mode [ 'lib/public/icons/page_white_acrobat.png', 438, 420 ]
+silly modified mode [ 'lib/public/icons/page_white_actionscript.png', 438, 420 ]
+silly modified mode [ 'lib/public/icons/page_white_add.png', 438, 420 ]
+silly modified mode [ 'lib/public/icons/page_white_c.png', 438, 420 ]
+silly modified mode [ 'lib/public/icons/page_white_camera.png', 438, 420 ]
+silly modified mode [ 'lib/public/icons/page_white_cd.png', 438, 420 ]
+silly modified mode [ 'lib/public/icons/page_white_code.png', 438, 420 ]
+silly modified mode [ 'lib/public/icons/page_white_code_red.png', 438, 420 ]
+silly modified mode [ 'lib/public/icons/page_white_coldfusion.png', 438, 420 ]
+silly modified mode [ 'lib/public/icons/page_white_compressed.png', 438, 420 ]
+silly modified mode [ 'lib/public/icons/page_white_copy.png', 438, 420 ]
+silly modified mode [ 'lib/public/icons/page_white_cplusplus.png', 438, 420 ]
+silly modified mode [ 'lib/public/icons/page_white_csharp.png', 438, 420 ]
+silly modified mode [ 'lib/public/icons/page_white_cup.png', 438, 420 ]
+silly modified mode [ 'lib/public/icons/page_white_database.png', 438, 420 ]
+silly modified mode [ 'lib/public/icons/page_white_delete.png', 438, 420 ]
+silly modified mode [ 'lib/public/icons/page_white_dvd.png', 438, 420 ]
+silly modified mode [ 'lib/public/icons/page_white_edit.png', 438, 420 ]
+silly modified mode [ 'lib/public/icons/page_white_error.png', 438, 420 ]
+silly modified mode [ 'lib/public/icons/page_white_excel.png', 438, 420 ]
+silly modified mode [ 'lib/public/icons/page_white_find.png', 438, 420 ]
+silly modified mode [ 'lib/public/icons/page_white_flash.png', 438, 420 ]
+silly modified mode [ 'lib/public/icons/page_white_freehand.png', 438, 420 ]
+silly modified mode [ 'lib/public/icons/page_white_gear.png', 438, 420 ]
+silly modified mode [ 'lib/public/icons/page_white_get.png', 438, 420 ]
+silly modified mode [ 'lib/public/icons/page_white_go.png', 438, 420 ]
+silly modified mode [ 'lib/public/icons/page_white_h.png', 438, 420 ]
+silly modified mode [ 'lib/public/icons/page_white_horizontal.png', 438, 420 ]
+silly modified mode [ 'lib/public/icons/page_white_key.png', 438, 420 ]
+silly modified mode [ 'lib/public/icons/page_white_lightning.png', 438, 420 ]
+silly modified mode [ 'lib/public/icons/page_white_link.png', 438, 420 ]
+silly modified mode [ 'lib/public/icons/page_white_magnify.png', 438, 420 ]
+silly modified mode [ 'lib/public/icons/page_white_medal.png', 438, 420 ]
+silly modified mode [ 'lib/public/icons/page_white_office.png', 438, 420 ]
+silly modified mode [ 'lib/public/icons/page_white_paint.png', 438, 420 ]
+silly modified mode [ 'lib/public/icons/page_white_paintbrush.png', 438, 420 ]
+silly modified mode [ 'lib/public/icons/page_white_paste.png', 438, 420 ]
+silly modified mode [ 'lib/public/icons/page_white_php.png', 438, 420 ]
+silly modified mode [ 'lib/public/icons/page_white_picture.png', 438, 420 ]
+silly modified mode [ 'lib/public/icons/page_white_powerpoint.png', 438, 420 ]
+silly modified mode [ 'lib/public/icons/page_white_put.png', 438, 420 ]
+silly modified mode [ 'lib/public/icons/page_white_ruby.png', 438, 420 ]
+silly modified mode [ 'lib/public/icons/page_white_stack.png', 438, 420 ]
+silly modified mode [ 'lib/public/icons/page_white_star.png', 438, 420 ]
+silly modified mode [ 'lib/public/icons/page_white_swoosh.png', 438, 420 ]
+silly modified mode [ 'lib/public/icons/page_white_text.png', 438, 420 ]
+silly modified mode [ 'lib/public/icons/page_white_text_width.png', 438, 420 ]
+silly modified mode [ 'lib/public/icons/page_white_tux.png', 438, 420 ]
+silly modified mode [ 'lib/public/icons/page_white_vector.png', 438, 420 ]
+silly modified mode [ 'lib/public/icons/page_white_visualstudio.png', 438, 420 ]
+silly modified mode [ 'lib/public/icons/page_white_width.png', 438, 420 ]
+silly modified mode [ 'lib/public/icons/page_white_word.png', 438, 420 ]
+silly modified mode [ 'lib/public/icons/page_white_world.png', 438, 420 ]
+silly modified mode [ 'lib/public/icons/page_white_wrench.png', 438, 420 ]
+silly modified mode [ 'lib/public/icons/page_white_zip.png', 438, 420 ]
+silly modified mode [ 'lib/public/icons/page_word.png', 438, 420 ]
+silly modified mode [ 'lib/public/icons/page_world.png', 438, 420 ]
+silly modified mode [ 'lib/public/style.css', 438, 420 ]
+silly modified mode [ 'lib/utils.js', 438, 420 ]
+silly modified mode [ 'LICENSE', 438, 420 ]
+silly modified mode [ 'package.json', 438, 420 ]
+silly modified mode [ 'test.js', 438, 420 ]
+verbose gunzed C:\Users\Brandon\AppData\Roaming\npm-cache\connect\1.8.5\package
+verbose caching C:\Users\Brandon\AppData\Roaming\npm-cache\connect\1.8.5\package\package.json
+verbose loadDefaults connect@1.8.5
+silly updated sha bytes 40960
+silly updated sha bytes 37035
+info shasum dcadab3b1ad1edc55e69e5c6c278ee46abbe8b70
+info shasum C:\Users\Brandon\AppData\Roaming\npm-cache\connect\1.8.5\package.tgz
+verbose from cache C:\Users\Brandon\AppData\Roaming\npm-cache\connect\1.8.5\package\package.json
+verbose chmod C:\Users\Brandon\AppData\Roaming\npm-cache\connect\1.8.5\package.tgz 644
+silly skipping chown for windows C:\Users\Brandon\AppData\Roaming\npm-cache\connect\1.8.5\package.tgz
+silly updated sha bytes 40960
+silly updated sha bytes 40960
+silly updated sha bytes 40960
+silly updated sha bytes 40960
+silly updated sha bytes 40960
+silly updated sha bytes 40960
+silly updated sha bytes 40960
+silly updated sha bytes 40960
+silly updated sha bytes 40960
+silly updated sha bytes 40960
+silly updated sha bytes 40960
+silly updated sha bytes 10240
+info shasum 1f1a21b68096663e1c4709f132c4de886feba1c3
+info shasum C:\Users\Brandon\AppData\Local\Temp\npm-1337919225868\1337919228738-0.3223430395592004\tmp.tgz
+verbose mkdir (expected) error ENOENT, stat 'C:\Users\Brandon\AppData\Local\Temp\npm-1337919225868\1337919228738-0.3223430395592004\package'
+verbose mkdir done: C:\Users\Brandon\AppData\Local\Temp\npm-1337919225868\1337919228738-0.3223430395592004\package 755
+verbose unpack_ uid, gid [ undefined, undefined ]
+verbose unpackTarget C:\Users\Brandon\AppData\Local\Temp\npm-1337919225868\1337919228738-0.3223430395592004\package
+silly gunzTarPerm modes [ '755', '644' ]
+verbose gunzed C:\Users\Brandon\AppData\Local\Temp\npm-1337919225868\1337919228738-0.3223430395592004\package
+verbose caching C:\Users\Brandon\AppData\Local\Temp\npm-1337919225868\1337919228738-0.3223430395592004\package\package.json
+verbose loadDefaults mongodb@0.9.7
+verbose tarball contents [ 'package', 'tmp.tgz' ]
+verbose from cache C:\Users\Brandon\AppData\Local\Temp\npm-1337919225868\1337919228738-0.3223430395592004\package\package.json
+verbose pack C:\Users\Brandon\AppData\Local\Temp\npm-1337919225868\1337919228738-0.3223430395592004\package
+verbose pack C:\Users\Brandon\AppData\Local\Temp\npm-1337919225868\1337919228738-0.3223430395592004\package C:\Users\Brandon\AppData\Roaming\npm-cache\mongodb\0.9.7\package.tgz
+silly makeList C:\Users\Brandon\AppData\Local\Temp\npm-1337919225868\1337919228738-0.3223430395592004\package
+verbose caching C:\Users\Brandon\AppData\Local\Temp\npm-1337919225868\1337919228738-0.3223430395592004\package\deps\step\package.json
+verbose loadDefaults step@0.0.4
+verbose caching C:\Users\Brandon\AppData\Local\Temp\npm-1337919225868\1337919228738-0.3223430395592004\package\deps\nodeunit\package.json
+verbose loadDefaults nodeunit@0.5.1
+verbose caching C:\Users\Brandon\AppData\Local\Temp\npm-1337919225868\1337919228738-0.3223430395592004\package\deps\gleak\package.json
+verbose loadDefaults gleak@0.2.1
+silly dir, dirLen [ 'C:\\Users\\Brandon\\AppData\\Local\\Temp\\npm-1337919225868\\1337919228738-0.3223430395592004\\package\\deps\\step',
+silly dir, dirLen   105 ]
+silly dir, dirLen [ 'C:\\Users\\Brandon\\AppData\\Local\\Temp\\npm-1337919225868\\1337919228738-0.3223430395592004\\package\\deps\\gleak',
+silly dir, dirLen   106 ]
+silly dir, dirLen [ 'C:\\Users\\Brandon\\AppData\\Local\\Temp\\npm-1337919225868\\1337919228738-0.3223430395592004\\package\\deps\\nodeunit',
+silly dir, dirLen   109 ]
+silly dir, dirLen [ 'C:\\Users\\Brandon\\AppData\\Local\\Temp\\npm-1337919225868\\1337919228738-0.3223430395592004\\package',
+silly dir, dirLen   95 ]
+verbose tarball C:\Users\Brandon\AppData\Roaming\npm-cache\mongodb\0.9.7\package.tgz
+verbose parent C:\Users\Brandon\AppData\Local\Temp\npm-1337919225868\1337919228738-0.3223430395592004\package
+verbose mkdir (expected) error ENOENT, stat 'C:\Users\Brandon\AppData\Roaming\npm-cache\mongodb\0.9.7\package'
+verbose mkdir done: C:\Users\Brandon\AppData\Roaming\npm-cache\mongodb\0.9.7\package 755
+verbose unpack_ uid, gid [ undefined, undefined ]
+verbose unpackTarget C:\Users\Brandon\AppData\Roaming\npm-cache\mongodb\0.9.7\package
+silly gunzTarPerm modes [ '755', '644' ]
+silly modified mode [ '.npmignore', 438, 420 ]
+silly modified mode [ 'articles/', 438, 493 ]
+silly modified mode [ 'articles/NodeKOArticle1.md', 438, 420 ]
+silly modified mode [ 'articles/NodeKOArticle2.md', 438, 420 ]
+silly modified mode [ 'deps/', 438, 493 ]
+silly modified mode [ 'deps/gleak/', 438, 493 ]
+silly modified mode [ 'deps/gleak/.npmignore', 438, 420 ]
+silly modified mode [ 'deps/gleak/History.md', 438, 420 ]
+silly modified mode [ 'deps/gleak/index.js', 438, 420 ]
+silly modified mode [ 'deps/gleak/Makefile', 438, 420 ]
+silly modified mode [ 'deps/gleak/package.json', 438, 420 ]
+silly modified mode [ 'deps/gleak/README.md', 438, 420 ]
+silly modified mode [ 'deps/gleak/test/', 438, 493 ]
+silly modified mode [ 'deps/gleak/test/index.js', 438, 420 ]
+silly modified mode [ 'deps/nodeunit/', 438, 493 ]
+silly modified mode [ 'deps/nodeunit/.npmignore', 438, 420 ]
+silly modified mode [ 'deps/nodeunit/bin/', 438, 493 ]
+silly modified mode [ 'deps/nodeunit/bin/nodeunit', 438, 420 ]
+silly modified mode [ 'deps/nodeunit/bin/nodeunit.json', 438, 420 ]
+silly modified mode [ 'deps/nodeunit/CONTRIBUTORS.md', 438, 420 ]
+silly modified mode [ 'deps/nodeunit/deps/', 438, 493 ]
+silly modified mode [ 'deps/nodeunit/deps/async.js', 438, 420 ]
+silly modified mode [ 'deps/nodeunit/deps/ejs.js', 438, 420 ]
+silly modified mode [ 'deps/nodeunit/deps/json2.js', 438, 420 ]
+silly modified mode [ 'deps/nodeunit/doc/', 438, 493 ]
+silly modified mode [ 'deps/nodeunit/doc/nodeunit.md', 438, 420 ]
+silly modified mode [ 'deps/nodeunit/examples/', 438, 493 ]
+silly modified mode [ 'deps/nodeunit/examples/browser/', 438, 493 ]
+silly modified mode [ 'deps/nodeunit/examples/browser/nodeunit.js', 438, 420 ]
+silly modified mode [ 'deps/nodeunit/examples/browser/suite1.js', 438, 420 ]
+silly modified mode [ 'deps/nodeunit/examples/browser/suite2.js', 438, 420 ]
+silly modified mode [ 'deps/nodeunit/examples/browser/test.html', 438, 420 ]
+silly modified mode [ 'deps/nodeunit/img/', 438, 493 ]
+silly modified mode [ 'deps/nodeunit/img/example_fail.png', 438, 420 ]
+silly modified mode [ 'deps/nodeunit/img/example_pass.png', 438, 420 ]
+silly modified mode [ 'deps/nodeunit/index.js', 438, 420 ]
+silly modified mode [ 'deps/nodeunit/lib/', 438, 493 ]
+silly modified mode [ 'deps/nodeunit/lib/assert.js', 438, 420 ]
+silly modified mode [ 'deps/nodeunit/lib/core.js', 438, 420 ]
+silly modified mode [ 'deps/nodeunit/lib/nodeunit.js', 438, 420 ]
+silly modified mode [ 'deps/nodeunit/lib/reporters/', 438, 493 ]
+silly modified mode [ 'deps/nodeunit/lib/reporters/browser.js', 438, 420 ]
+silly modified mode [ 'deps/nodeunit/lib/reporters/default.js', 438, 420 ]
+silly modified mode [ 'deps/nodeunit/lib/reporters/html.js', 438, 420 ]
+silly modified mode [ 'deps/nodeunit/lib/reporters/index.js', 438, 420 ]
+silly modified mode [ 'deps/nodeunit/lib/reporters/junit.js', 438, 420 ]
+silly modified mode [ 'deps/nodeunit/lib/reporters/minimal.js', 438, 420 ]
+silly modified mode [ 'deps/nodeunit/lib/reporters/skip_passed.js', 438, 420 ]
+silly modified mode [ 'deps/nodeunit/lib/track.js', 438, 420 ]
+silly modified mode [ 'deps/nodeunit/lib/types.js', 438, 420 ]
+silly modified mode [ 'deps/nodeunit/lib/utils.js', 438, 420 ]
+silly modified mode [ 'deps/nodeunit/LICENSE', 438, 420 ]
+silly modified mode [ 'deps/nodeunit/Makefile', 438, 420 ]
+silly modified mode [ 'deps/nodeunit/man1/', 438, 493 ]
+silly modified mode [ 'deps/nodeunit/man1/nodeunit.1', 438, 420 ]
+silly modified mode [ 'deps/nodeunit/nodelint.cfg', 438, 420 ]
+silly modified mode [ 'deps/nodeunit/package.json', 438, 420 ]
+silly modified mode [ 'deps/nodeunit/README.md', 438, 420 ]
+silly modified mode [ 'deps/nodeunit/share/', 438, 493 ]
+silly modified mode [ 'deps/nodeunit/share/junit.xml.ejs', 438, 420 ]
+silly modified mode [ 'deps/nodeunit/share/license.js', 438, 420 ]
+silly modified mode [ 'deps/nodeunit/share/nodeunit.css', 438, 420 ]
+silly modified mode [ 'deps/nodeunit/test/', 438, 493 ]
+silly modified mode [ 'deps/nodeunit/test/fixtures/', 438, 493 ]
+silly modified mode [ 'deps/nodeunit/test/fixtures/coffee/', 438, 493 ]
+silly modified mode [ 'deps/nodeunit/test/fixtures/coffee/mock_coffee_module.coffee',
+silly modified mode   438,
+silly modified mode   420 ]
+silly modified mode [ 'deps/nodeunit/test/fixtures/dir/', 438, 493 ]
+silly modified mode [ 'deps/nodeunit/test/fixtures/dir/mock_module3.js', 438, 420 ]
+silly modified mode [ 'deps/nodeunit/test/fixtures/dir/mock_module4.js', 438, 420 ]
+silly modified mode [ 'deps/nodeunit/test/fixtures/mock_module1.js', 438, 420 ]
+silly modified mode [ 'deps/nodeunit/test/fixtures/mock_module2.js', 438, 420 ]
+silly modified mode [ 'deps/nodeunit/test/fixtures/raw_jscode1.js', 438, 420 ]
+silly modified mode [ 'deps/nodeunit/test/fixtures/raw_jscode2.js', 438, 420 ]
+silly modified mode [ 'deps/nodeunit/test/fixtures/raw_jscode3.js', 438, 420 ]
+silly modified mode [ 'deps/nodeunit/test/test-base.js', 438, 420 ]
+silly modified mode [ 'deps/nodeunit/test/test-failing-callbacks.js', 438, 420 ]
+silly modified mode [ 'deps/nodeunit/test/test-httputil.js', 438, 420 ]
+silly modified mode [ 'deps/nodeunit/test/test-runfiles.js', 438, 420 ]
+silly modified mode [ 'deps/nodeunit/test/test-runmodule.js', 438, 420 ]
+silly modified mode [ 'deps/nodeunit/test/test-runtest.js', 438, 420 ]
+silly modified mode [ 'deps/nodeunit/test/test-sandbox.js', 438, 420 ]
+silly modified mode [ 'deps/nodeunit/test/test-testcase.js', 438, 420 ]
+silly modified mode [ 'deps/nodeunit/test/test.html', 438, 420 ]
+silly modified mode [ 'deps/step/', 438, 493 ]
+silly modified mode [ 'deps/step/lib/', 438, 493 ]
+silly modified mode [ 'deps/step/lib/step.js', 438, 420 ]
+silly modified mode [ 'deps/step/package.json', 438, 420 ]
+silly modified mode [ 'deps/step/README.markdown', 438, 420 ]
+silly modified mode [ 'deps/step/test/', 438, 493 ]
+silly modified mode [ 'deps/step/test/callbackTest.js', 438, 420 ]
+silly modified mode [ 'deps/step/test/errorTest.js', 438, 420 ]
+silly modified mode [ 'deps/step/test/fnTest.js', 438, 420 ]
+silly modified mode [ 'deps/step/test/groupTest.js', 438, 420 ]
+silly modified mode [ 'deps/step/test/helper.js', 438, 420 ]
+silly modified mode [ 'deps/step/test/parallelTest.js', 438, 420 ]
+silly modified mode [ 'docs/', 438, 493 ]
+silly modified mode [ 'docs/collections.md', 438, 420 ]
+silly modified mode [ 'docs/database.md', 438, 420 ]
+silly modified mode [ 'docs/gridfs.md', 438, 420 ]
+silly modified mode [ 'docs/indexes.md', 438, 420 ]
+silly modified mode [ 'docs/insert.md', 438, 420 ]
+silly modified mode [ 'docs/queries.md', 438, 420 ]
+silly modified mode [ 'docs/README.md', 438, 420 ]
+silly modified mode [ 'docs/replicaset.md', 438, 420 ]
+silly modified mode [ 'examples/', 438, 493 ]
+silly modified mode [ 'examples/admin.js', 438, 420 ]
+silly modified mode [ 'examples/blog.js', 438, 420 ]
+silly modified mode [ 'examples/capped.js', 438, 420 ]
+silly modified mode [ 'examples/cursor.js', 438, 420 ]
+silly modified mode [ 'examples/gridfs.js', 438, 420 ]
+silly modified mode [ 'examples/index.js', 438, 420 ]
+silly modified mode [ 'examples/info.js', 438, 420 ]
+silly modified mode [ 'examples/oplog.js', 438, 420 ]
+silly modified mode [ 'examples/queries.js', 438, 420 ]
+silly modified mode [ 'examples/replSetServersQueries.js', 438, 420 ]
+silly modified mode [ 'examples/replSetServersSimple.js', 438, 420 ]
+silly modified mode [ 'examples/simple.js', 438, 420 ]
+silly modified mode [ 'examples/strict.js', 438, 420 ]
+silly modified mode [ 'examples/types.js', 438, 420 ]
+silly modified mode [ 'examples/url.js', 438, 420 ]
+silly modified mode [ 'external-libs/', 438, 493 ]
+silly modified mode [ 'external-libs/bson/', 438, 493 ]
+silly modified mode [ 'external-libs/bson/binary.cc', 438, 420 ]
+silly modified mode [ 'external-libs/bson/binary.h', 438, 420 ]
+silly modified mode [ 'external-libs/bson/bson.cc', 438, 420 ]
+silly modified mode [ 'external-libs/bson/bson.h', 438, 420 ]
+silly modified mode [ 'external-libs/bson/code.cc', 438, 420 ]
+silly modified mode [ 'external-libs/bson/code.h', 438, 420 ]
+silly modified mode [ 'external-libs/bson/dbref.cc', 438, 420 ]
+silly modified mode [ 'external-libs/bson/dbref.h', 438, 420 ]
+silly modified mode [ 'external-libs/bson/double.cc', 438, 420 ]
+silly modified mode [ 'external-libs/bson/double.h', 438, 420 ]
+silly modified mode [ 'external-libs/bson/index.js', 438, 420 ]
+silly modified mode [ 'external-libs/bson/local.cc', 438, 420 ]
+silly modified mode [ 'external-libs/bson/local.h', 438, 420 ]
+silly modified mode [ 'external-libs/bson/long.cc', 438, 420 ]
+silly modified mode [ 'external-libs/bson/long.h', 438, 420 ]
+silly modified mode [ 'external-libs/bson/Makefile', 438, 420 ]
+silly modified mode [ 'external-libs/bson/maxkey.cc', 438, 420 ]
+silly modified mode [ 'external-libs/bson/maxkey.h', 438, 420 ]
+silly modified mode [ 'external-libs/bson/minkey.cc', 438, 420 ]
+silly modified mode [ 'external-libs/bson/minkey.h', 438, 420 ]
+silly modified mode [ 'external-libs/bson/objectid.cc', 438, 420 ]
+silly modified mode [ 'external-libs/bson/objectid.h', 438, 420 ]
+silly modified mode [ 'external-libs/bson/symbol.cc', 438, 420 ]
+silly modified mode [ 'external-libs/bson/symbol.h', 438, 420 ]
+silly modified mode [ 'external-libs/bson/test_bson.js', 438, 420 ]
+silly modified mode [ 'external-libs/bson/test_full_bson.js', 438, 420 ]
+silly modified mode [ 'external-libs/bson/timestamp.cc', 438, 420 ]
+silly modified mode [ 'external-libs/bson/timestamp.h', 438, 420 ]
+silly modified mode [ 'external-libs/bson/wscript', 438, 420 ]
+silly modified mode [ 'HISTORY', 438, 420 ]
+silly modified mode [ 'index.js', 438, 420 ]
+silly modified mode [ 'install.sh', 438, 420 ]
+silly modified mode [ 'lib/', 438, 493 ]
+silly modified mode [ 'lib/mongodb/', 438, 493 ]
+silly modified mode [ 'lib/mongodb/admin.js', 438, 420 ]
+silly modified mode [ 'lib/mongodb/bson/', 438, 493 ]
+silly modified mode [ 'lib/mongodb/bson/binary.js', 438, 420 ]
+silly modified mode [ 'lib/mongodb/bson/binary_parser.js', 438, 420 ]
+silly modified mode [ 'lib/mongodb/bson/binary_utils.js', 438, 420 ]
+silly modified mode [ 'lib/mongodb/bson/bson.js', 438, 420 ]
+silly modified mode [ 'lib/mongodb/bson/double.js', 438, 420 ]
+silly modified mode [ 'lib/mongodb/bson/float_parser.js', 438, 420 ]
+silly modified mode [ 'lib/mongodb/bson/objectid.js', 438, 420 ]
+silly modified mode [ 'lib/mongodb/bson/timestamp.js', 438, 420 ]
+silly modified mode [ 'lib/mongodb/collection.js', 438, 420 ]
+silly modified mode [ 'lib/mongodb/commands/', 438, 493 ]
+silly modified mode [ 'lib/mongodb/commands/base_command.js', 438, 420 ]
+silly modified mode [ 'lib/mongodb/commands/db_command.js', 438, 420 ]
+silly modified mode [ 'lib/mongodb/commands/delete_command.js', 438, 420 ]
+silly modified mode [ 'lib/mongodb/commands/get_more_command.js', 438, 420 ]
+silly modified mode [ 'lib/mongodb/commands/insert_command.js', 438, 420 ]
+silly modified mode [ 'lib/mongodb/commands/kill_cursor_command.js', 438, 420 ]
+silly modified mode [ 'lib/mongodb/commands/query_command.js', 438, 420 ]
+silly modified mode [ 'lib/mongodb/commands/update_command.js', 438, 420 ]
+silly modified mode [ 'lib/mongodb/connection/', 438, 493 ]
+silly modified mode [ 'lib/mongodb/connection/connection.js', 438, 420 ]
+silly modified mode [ 'lib/mongodb/connection/connection_pool.js', 438, 420 ]
+silly modified mode [ 'lib/mongodb/connection/connection_utils.js', 438, 420 ]
+silly modified mode [ 'lib/mongodb/connection/repl_set_servers.js', 438, 420 ]
+silly modified mode [ 'lib/mongodb/connection/server.js', 438, 420 ]
+silly modified mode [ 'lib/mongodb/connection/simple_emitter.js', 438, 420 ]
+silly modified mode [ 'lib/mongodb/cursor.js', 438, 420 ]
+silly modified mode [ 'lib/mongodb/db.js', 438, 420 ]
+silly modified mode [ 'lib/mongodb/goog/', 438, 493 ]
+silly modified mode [ 'lib/mongodb/goog/math/', 438, 493 ]
+silly modified mode [ 'lib/mongodb/goog/math/long.js', 438, 420 ]
+silly modified mode [ 'lib/mongodb/gridfs/', 438, 493 ]
+silly modified mode [ 'lib/mongodb/gridfs/chunk.js', 438, 420 ]
+silly modified mode [ 'lib/mongodb/gridfs/grid.js', 438, 420 ]
+silly modified mode [ 'lib/mongodb/gridfs/gridstore.js', 438, 420 ]
+silly modified mode [ 'lib/mongodb/index.js', 438, 420 ]
+silly modified mode [ 'lib/mongodb/responses/', 438, 493 ]
+silly modified mode [ 'lib/mongodb/responses/mongo_reply.js', 438, 420 ]
+silly modified mode [ 'Makefile', 438, 420 ]
+silly modified mode [ 'package.json', 438, 420 ]
+silly modified mode [ 'Readme.md', 438, 420 ]
+silly modified mode [ 'test/', 438, 493 ]
+silly modified mode [ 'test/admin_test.js', 438, 420 ]
+silly modified mode [ 'test/authentication_test.js', 438, 420 ]
+silly modified mode [ 'test/auxilliary/', 438, 493 ]
+silly modified mode [ 'test/auxilliary/authentication_test.js', 438, 420 ]
+silly modified mode [ 'test/auxilliary/replicaset_auth_test.js', 438, 420 ]
+silly modified mode [ 'test/bson/', 438, 493 ]
+silly modified mode [ 'test/bson/bson_test.js', 438, 420 ]
+silly modified mode [ 'test/bson/commands_test.js', 438, 420 ]
+silly modified mode [ 'test/collection_test.js', 438, 420 ]
+silly modified mode [ 'test/connection/', 438, 493 ]
+silly modified mode [ 'test/connection/connection_pool_test.js', 438, 420 ]
+silly modified mode [ 'test/connection/message_parser_test.js', 438, 420 ]
+silly modified mode [ 'test/connection_test.js', 438, 420 ]
+silly modified mode [ 'test/connect_test.js', 438, 420 ]
+silly modified mode [ 'test/cursor_test.js', 438, 420 ]
+silly modified mode [ 'test/custom_pk_test.js', 438, 420 ]
+silly modified mode [ 'test/db_test.js', 438, 420 ]
+silly modified mode [ 'test/error_test.js', 438, 420 ]
+silly modified mode [ 'test/exception_handling_test.js', 438, 420 ]
+silly modified mode [ 'test/find_test.js', 438, 420 ]
+silly modified mode [ 'test/gridstore/', 438, 493 ]
+silly modified mode [ 'test/gridstore/grid_store_file_test.js', 438, 420 ]
+silly modified mode [ 'test/gridstore/grid_store_stream_test.js', 438, 420 ]
+silly modified mode [ 'test/gridstore/grid_store_test.js', 438, 420 ]
+silly modified mode [ 'test/gridstore/grid_test.js', 438, 420 ]
+silly modified mode [ 'test/gridstore/iya_logo_final_bw.jpg', 438, 420 ]
+silly modified mode [ 'test/gridstore/test_gs_weird_bug.png', 438, 420 ]
+silly modified mode [ 'test/gridstore/test_gs_working_field_read.pdf', 438, 420 ]
+silly modified mode [ 'test/index_test.js', 438, 420 ]
+silly modified mode [ 'test/insert_test.js', 438, 420 ]
+silly modified mode [ 'test/map_reduce_test.js', 438, 420 ]
+silly modified mode [ 'test/multiple_dbs_on_connection_pool_test.js', 438, 420 ]
+silly modified mode [ 'test/objectid_test.js', 438, 420 ]
+silly modified mode [ 'test/raw_test.js', 438, 420 ]
+silly modified mode [ 'test/regexp_test.js', 438, 420 ]
+silly modified mode [ 'test/remove_test.js', 438, 420 ]
+silly modified mode [ 'test/replicaset/', 438, 493 ]
+silly modified mode [ 'test/replicaset/connect_test.js', 438, 420 ]
+silly modified mode [ 'test/replicaset/count_test.js', 438, 420 ]
+silly modified mode [ 'test/replicaset/insert_test.js', 438, 420 ]
+silly modified mode [ 'test/replicaset/query_secondaries_test.js', 438, 420 ]
+silly modified mode [ 'test/replicaset/two_server_tests.js', 438, 420 ]
+silly modified mode [ 'test/streaming_test.js', 438, 420 ]
+silly modified mode [ 'test/tools/', 438, 493 ]
+silly modified mode [ 'test/tools/keyfile.txt', 438, 420 ]
+silly modified mode [ 'test/tools/replica_set_manager.js', 438, 420 ]
+silly modified mode [ 'test/tools/server_manager.js', 438, 420 ]
+silly modified mode [ 'test/unicode_test.js', 438, 420 ]
+silly modified mode [ 'TODO', 438, 420 ]
+silly modified mode [ 'tools/', 438, 493 ]
+silly modified mode [ 'tools/gleak.js', 438, 420 ]
+silly modified mode [ 'tools/test_all.js', 438, 420 ]
+verbose gunzed C:\Users\Brandon\AppData\Roaming\npm-cache\mongodb\0.9.7\package
+verbose caching C:\Users\Brandon\AppData\Roaming\npm-cache\mongodb\0.9.7\package\package.json
+verbose loadDefaults mongodb@0.9.7
+silly updated sha bytes 40960
+silly updated sha bytes 40960
+silly updated sha bytes 40960
+silly updated sha bytes 40960
+silly updated sha bytes 40960
+silly updated sha bytes 40960
+silly updated sha bytes 40960
+silly updated sha bytes 40960
+silly updated sha bytes 40960
+silly updated sha bytes 40960
+silly updated sha bytes 40960
+silly updated sha bytes 14554
+info shasum d4d270969cb25cfef2e72c78ffd107b681068e73
+info shasum C:\Users\Brandon\AppData\Roaming\npm-cache\mongodb\0.9.7\package.tgz
+verbose from cache C:\Users\Brandon\AppData\Roaming\npm-cache\mongodb\0.9.7\package\package.json
+verbose chmod C:\Users\Brandon\AppData\Roaming\npm-cache\mongodb\0.9.7\package.tgz 644
+silly skipping chown for windows C:\Users\Brandon\AppData\Roaming\npm-cache\mongodb\0.9.7\package.tgz
+silly resolved [ { name: 'connect',
+silly resolved     version: '1.8.5',
+silly resolved     description: 'High performance middleware framework',
+silly resolved     keywords: [ 'framework', 'web', 'middleware', 'connect', 'rack' ],
+silly resolved     repository: { type: 'git', url: 'git://github.com/senchalabs/connect.git' },
+silly resolved     author: 
+silly resolved      { name: 'TJ Holowaychuk',
+silly resolved        email: 'tj@vision-media.ca',
+silly resolved        url: 'http://tjholowaychuk.com' },
+silly resolved     dependencies: { qs: '>= 0.4.0', mime: '>= 0.0.1', formidable: '1.0.x' },
+silly resolved     devDependencies: 
+silly resolved      { expresso: '0.9.2',
+silly resolved        koala: '0.1.2',
+silly resolved        less: '1.1.1',
+silly resolved        sass: '0.5.0',
+silly resolved        markdown: '0.2.1',
+silly resolved        ejs: '0.4.3',
+silly resolved        should: '0.3.2' },
+silly resolved     main: 'index',
+silly resolved     engines: { node: '>= 0.4.1 < 0.7.0' },
+silly resolved     _id: 'connect@1.8.5',
+silly resolved     optionalDependencies: {},
+silly resolved     _engineSupported: true,
+silly resolved     _npmVersion: '1.1.12',
+silly resolved     _nodeVersion: 'v0.6.14',
+silly resolved     _defaultsLoaded: true,
+silly resolved     dist: { shasum: 'dcadab3b1ad1edc55e69e5c6c278ee46abbe8b70' },
+silly resolved     _from: 'connect@1.8.5' },
+silly resolved   { name: 'mongodb',
+silly resolved     description: 'A node.js driver for MongoDB',
+silly resolved     keywords: [ 'mongodb', 'mongo', 'driver', 'db' ],
+silly resolved     version: '0.9.7',
+silly resolved     author: { name: 'Christian Amor Kvalheim', email: 'christkv@gmail.com' },
+silly resolved     contributors: 
+silly resolved      [ { name: 'Aaron Heckmann' },
+silly resolved        { name: 'Christoph Pojer' },
+silly resolved        { name: 'Pau Ramon Revilla' },
+silly resolved        { name: 'Nathan White' },
+silly resolved        { name: 'Emmerman' },
+silly resolved        { name: 'Seth LaForge' },
+silly resolved        { name: 'Boris Filipov' },
+silly resolved        { name: 'Stefan Schärmeli' },
+silly resolved        { name: 'Tedde Lundgren' },
+silly resolved        { name: 'renctan' },
+silly resolved        { name: 'Sergey Ukustov' },
+silly resolved        { name: 'Ciaran Jessup' },
+silly resolved        { name: 'kuno' },
+silly resolved        { name: 'srimonti' },
+silly resolved        { name: 'Erik Abele' },
+silly resolved        { name: 'Pratik Daga' },
+silly resolved        { name: 'Slobodan Utvic' },
+silly resolved        { name: 'Kristina Chodorow' },
+silly resolved        { name: 'Yonathan Randolph' },
+silly resolved        { name: 'Brian Noguchi' },
+silly resolved        { name: 'Sam Epstein' },
+silly resolved        { name: 'James Harrison Fisher' },
+silly resolved        { name: 'Vladimir Dronnikov' },
+silly resolved        { name: 'Ben Hockey' },
+silly resolved        { name: 'Henrik Johansson' },
+silly resolved        { name: 'Simon Weare' },
+silly resolved        { name: 'Alex Gorbatchev' },
+silly resolved        { name: 'Shimon Doodkin' },
+silly resolved        { name: 'Kyle Mueller' },
+silly resolved        { name: 'Eran Hammer-Lahav' },
+silly resolved        { name: 'Marcin Ciszak' },
+silly resolved        { name: 'François de Metz' },
+silly resolved        { name: 'Vinay Pulim' },
+silly resolved        { name: 'nstielau' },
+silly resolved        { name: 'Adam Wiggins' },
+silly resolved        { name: 'entrinzikyl' },
+silly resolved        { name: 'Jeremy Selier' },
+silly resolved        { name: 'Ian Millington' },
+silly resolved        { name: 'Public Keating' },
+silly resolved        { name: 'andrewjstone' },
+silly resolved        { name: 'Christopher Stott' },
+silly resolved        { name: 'Corey Jewett' },
+silly resolved        { name: 'brettkiefer' },
+silly resolved        { name: 'Rob Holland' },
+silly resolved        { name: 'Senmiao Liu' },
+silly resolved        { name: 'heroic' },
+silly resolved        { name: 'gitfy' },
+silly resolved        { name: 'Andrew Stone' } ],
+silly resolved     repository: 
+silly resolved      { type: 'git',
+silly resolved        url: 'git://github.com/christkv/node-mongodb-native.git' },
+silly resolved     bugs: 
+silly resolved      { email: 'node-mongodb-native@googlegroups.com',
+silly resolved        url: 'http://github.com/christkv/node-mongodb-native/issues' },
+silly resolved     os: [ 'linux', 'darwin', 'freebsd' ],
+silly resolved     config: { native: false },
+silly resolved     main: './lib/mongodb/index',
+silly resolved     directories: { lib: './lib/mongodb' },
+silly resolved     engines: { node: '>=0.4.0' },
+silly resolved     scripts: { install: 'bash ./install.sh' },
+silly resolved     licenses: 
+silly resolved      [ { type: 'Apache License, Version 2.0',
+silly resolved          url: 'http://www.apache.org/licenses/LICENSE-2.0' } ],
+silly resolved     _id: 'mongodb@0.9.7',
+silly resolved     dependencies: {},
+silly resolved     devDependencies: {},
+silly resolved     optionalDependencies: {},
+silly resolved     _engineSupported: true,
+silly resolved     _npmVersion: '1.1.12',
+silly resolved     _nodeVersion: 'v0.6.14',
+silly resolved     _defaultsLoaded: true,
+silly resolved     dist: { shasum: 'd4d270969cb25cfef2e72c78ffd107b681068e73' },
+silly resolved     _from: 'mongodb@0.9.7' } ]
+info into C:\Users\Brandon\Documents\My Web Sites\fileShare\node_modules\connect-mongodb connect@1.8.5
+info into C:\Users\Brandon\Documents\My Web Sites\fileShare\node_modules\connect-mongodb mongodb@0.9.7
+info installOne connect@1.8.5
+info installOne mongodb@0.9.7
+verbose about to build C:\Users\Brandon\Documents\My Web Sites\fileShare\node_modules\connect-mongodb
+info unbuild C:\Users\Brandon\Documents\My Web Sites\fileShare\node_modules\connect-mongodb
+verbose from cache C:\Users\Brandon\Documents\My Web Sites\fileShare\node_modules\connect-mongodb\package.json
+info preuninstall connect-mongodb@1.1.3
+verbose from cache C:\Users\Brandon\AppData\Roaming\npm-cache\connect\1.8.5\package\package.json
+info unbuild C:\Users\Brandon\Documents\My Web Sites\fileShare\node_modules\connect-mongodb\node_modules\connect
+info uninstall connect-mongodb@1.1.3
+verbose unbuild connect-mongodb@1.1.3 [ true,
+verbose unbuild connect-mongodb@1.1.3   'C:\\Users\\Brandon\\Documents\\My Web Sites\\fileShare\\node_modules',
+verbose unbuild connect-mongodb@1.1.3   'C:\\Users\\Brandon\\Documents\\My Web Sites\\fileShare\\node_modules' ]
+info postuninstall connect-mongodb@1.1.3
+verbose mkdir (expected) error ENOENT, stat 'C:\Users\Brandon\Documents\My Web Sites\fileShare\node_modules\connect-mongodb\node_modules'
+verbose mkdir (expected) error ENOENT, stat 'C:\Users\Brandon\Documents\My Web Sites\fileShare\node_modules\connect-mongodb\node_modules\connect'
+ERR! error rolling back connect-mongodb@1.1.3 Error: ENOTEMPTY, rmdir 'C:\Users\Brandon\Documents\My Web Sites\fileShare\node_modules\connect-mongodb'
+ERR! Unsupported
+ERR! Not compatible with your operating system or architecture: mongodb@0.9.7
+ERR! Valid OS:    linux,darwin,freebsd
+ERR! Valid Arch:  any
+ERR! Actual OS:   win32
+ERR! Actual Arch: ia32
+ERR! 
+ERR! System Windows_NT 6.1.7601
+ERR! command "C:\\Program Files (x86)\\nodejs\\\\node.exe" "C:\\Program Files (x86)\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" "connect-mongodb"
+ERR! cwd C:\Users\Brandon\Documents\My Web Sites\fileShare
+ERR! node -v v0.6.14
+ERR! npm -v 1.1.12
+ERR! code EBADPLATFORM
+ERR! message Unsupported
+ERR! errno {}
+verbose exit [ 1, true ]

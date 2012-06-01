@@ -1,0 +1,2 @@
+127.0.0.1 - - [Fri, 01 Jun 2012 02:10:20 GMT] "GET /favicon.ico HTTP/1.1" 404 - "-" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/536.5 (KHTML, like Gecko) Chrome/19.0.1084.52 Safari/536.5"
+127.0.0.1 - - [Fri, 01 Jun 2012 02:11:10 GMT] "GET /favicon.ico HTTP/1.1" 404 - "-" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/536.5 (KHTML, like Gecko) Chrome/19.0.1084.52 Safari/536.5"
